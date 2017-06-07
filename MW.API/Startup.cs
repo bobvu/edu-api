@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using MW.API.Data;
 using MW.API.Models;
 using MW.API.Services;
+using MW.DataAccess.Contexts;
+using MW.Domains.Users;
 
 namespace MW.API
 {
@@ -40,11 +42,11 @@ namespace MW.API
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<MwSqlContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MWDB")));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
+            services.AddIdentity<User, IdentityRole<long>>()
+                .AddEntityFrameworkStores<MwSqlContext,long>()
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
