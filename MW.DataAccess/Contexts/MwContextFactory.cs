@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace MW.DataAccess.Contexts
 {
+    /* This class is needed to run "dotnet ef ..." commands from command line on development. */
     public class MwContextFactory:IDbContextFactory<MwSqlContext>
     {
         private IConfigurationRoot _config;

@@ -7,6 +7,14 @@ namespace MW.Domains.Users
 {
     public class User: IdentityUser<long>
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime Dob { get; set; }
+        public string Password { get; set; }
+        public bool Gender { get; set; }
+
+        public string NickName { get; set; }
+
         private DateTime? createdDate;
         //[DataType(DataType.DateTime)]
         public DateTime CreatedDate
