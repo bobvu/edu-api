@@ -9,6 +9,8 @@ using MW.DataAccess.Contexts;
 using MW.Domains.Users;
 using MW.API.Helpers;
 using AutoMapper;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -21,44 +23,17 @@ namespace MW.API.Controllers.Users
         private readonly MwSqlContext _appDbContext;
         private readonly UserManager<User> _userManager;
         private readonly IMapper _mapper;
+        private readonly ILogger _logger;
 
-        public UserController(UserManager<User> userManager, IMapper mapper, MwSqlContext appDbContext)
+        public UserController(UserManager<User> userManager, IMapper mapper, MwSqlContext appDbContext,
+            ILoggerFactory loggerFactory)
         {
             _userManager = userManager;
             _mapper = mapper;
             _appDbContext = appDbContext;
+            _logger = loggerFactory.CreateLogger<UserController>();
         }
-        //// GET: api/values
-        //[HttpGet]
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
-        //// GET api/values/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
-        //// POST api/values
-        //[HttpPost]
-        //public void Post([FromBody]string value)
-        //{
-        //}
-
-        //// PUT api/values/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody]string value)
-        //{
-        //}
-
-        //// DELETE api/values/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+        
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]RegisterViewModel model)
         {
@@ -69,12 +44,24 @@ namespace MW.API.Controllers.Users
 
             var userIdentity = _mapper.Map<User>(model);
             var result = await _userManager.CreateAsync(userIdentity, model.Password);
+            Errors.AddErrorsToModelState(result, ModelState);
 
-            if (!result.Succeeded) return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
+            string json = JsonConvert.SerializeObject(Errors.AddErrorsToModelState(result, ModelState), Formatting.Indented);
+
+            if (!result.Succeeded) {
+                //_logger.LogInformation("Something went wrong with Creating a new account with username: " + model.Email + " password: " + model.Password);
+                _logger.LogInformation("Can't create new account with username: " + model.Email + " password: " + model.Password+" Errors " + json);
+                return new BadRequestObjectResult(Errors.AddErrorsToModelState(result, ModelState));
+
+            }
+            else
+            {
+                _logger.LogInformation("User created a new account with username: " + model.Email + " password: " + model.Password);
+            } 
 
             //await _appDbContext.Users.AddAsync(new User { UserName=userIdentity.Email});
             //await _appDbContext.SaveChangesAsync();
-
+            
             return new OkObjectResult("User created");
         }
     }

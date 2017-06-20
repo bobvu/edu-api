@@ -15,14 +15,14 @@ namespace MW.API.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            //ViewData["Message"] = "This API is built by Hung Vu to practice latest technologies of Web, Mobile, Front-End and Back-End Developement.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Hung's Contact.";
 
             return View();
         }

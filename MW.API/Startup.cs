@@ -97,6 +97,7 @@ namespace MW.API
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            loggerFactory.AddFile("../Logs/MW-{Date}.txt");
 
             if (env.IsDevelopment())
             {
