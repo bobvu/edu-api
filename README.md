@@ -17,8 +17,23 @@ download in this website https://www.microsoft.com/net/core#windowscmd
 
 * 
 
+#Setting up Angular2 (on Windows)
+https://fullstackmark.com/post/9/get-started-with-angular-2-and-aspnet-core-in-visual-studio-code
 
-#Setting up Angular2
+* Upgrade Node Js using Npm (Node v7.x)
+Uninstall current Node and go to this website and download latest version https://nodejs.org/en/download/. Run 'node -v' after installing, the output should be 6.4.10
+
+> _node -v_
+
+*upgrade npm version
+>_npm install npm@latest -g_
+>_npm -v_
+*install angular/cli
+>_npm install -g @angular/cli_ 
+
+>_ng -v_
+
+#Setting up Angular2 (on Mac)
 https://fullstackmark.com/post/9/get-started-with-angular-2-and-aspnet-core-in-visual-studio-code
 
 * Upgrade Node Js using Npm (Node v7.x)
