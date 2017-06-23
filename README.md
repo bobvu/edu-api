@@ -28,6 +28,7 @@ Uninstall current Node and go to this website and download latest version https:
 *upgrade npm version
 >_npm install npm@latest -g_
 >_npm -v_
+
 *install angular/cli
 >_npm install -g @angular/cli_ 
 
