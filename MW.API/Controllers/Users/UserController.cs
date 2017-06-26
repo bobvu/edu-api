@@ -11,12 +11,14 @@ using MW.API.Helpers;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Cors;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MW.API.Controllers.Users
 {
     [Route("api/[controller]")]
+    [EnableCors("AllowAllOrigins")]
     public class UserController : Controller
     {
 

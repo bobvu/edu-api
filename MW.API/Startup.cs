@@ -52,12 +52,21 @@ namespace MW.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins",
+                 builder =>
+                 {
+                     builder.AllowAnyOrigin()
+                     .AllowAnyMethod();
+                 });
+            });
             // Add framework services.
             services.AddDbContext<MwSqlContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MWDB")));
 
             services.AddIdentity<User, IdentityRole<long>>()
-                .AddEntityFrameworkStores<MwSqlContext,long>()
+                .AddEntityFrameworkStores<MwSqlContext, long>()
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
@@ -68,7 +77,7 @@ namespace MW.API
 
             //Register Automapper Service
             services.AddAutoMapper();
-            
+
             //Register JwtFactory
             services.AddSingleton<IJwtFactory, JwtFactory>();
 
@@ -95,9 +104,13 @@ namespace MW.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.UseOptions();
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
             loggerFactory.AddFile("../Logs/MW-{Date}.txt");
+
+            // Shows UseCors with named policy.
+            app.UseCors("AllowAllOrigins");
 
             if (env.IsDevelopment())
             {
@@ -119,6 +132,9 @@ namespace MW.API
                   {
                       context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                       context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                      //context.Response.Headers.Add("Access-Control-Allow-Methods", "POST");
+                      //context.Response.Headers.Add("Access-Control-Allow-Headers", "content-type");
+
 
                       var error = context.Features.Get<IExceptionHandlerFeature>();
                       if (error != null)
@@ -166,6 +182,47 @@ namespace MW.API
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+           
         }
     }
+
+    public static class OptionsMiddlewareExtensions
+    {
+        public static IApplicationBuilder UseOptions(this IApplicationBuilder builder)
+        {
+            return builder.UseMiddleware<OptionsMiddleware>();
+        }
+    }
+
+    public class OptionsMiddleware
+    {
+        private readonly RequestDelegate _next;
+        private IHostingEnvironment _environment;
+
+        public OptionsMiddleware(RequestDelegate next, IHostingEnvironment environment)
+        {
+            _next = next;
+            _environment = environment;
+        }
+
+        public async Task Invoke(HttpContext context)
+        {
+            this.BeginInvoke(context);
+            await this._next.Invoke(context);
+        }
+
+        private async void BeginInvoke(HttpContext context)
+        {
+            if (context.Request.Method == "OPTIONS")
+            {
+                context.Response.Headers.Add("Access-Control-Allow-Origin", new[] { (string)context.Request.Headers["Origin"] });
+                context.Response.Headers.Add("Access-Control-Allow-Headers", new[] { "Origin, X-Requested-With, Content-Type, Accept" });
+                context.Response.Headers.Add("Access-Control-Allow-Methods", new[] { "GET, POST, PUT, DELETE, OPTIONS" });
+                context.Response.Headers.Add("Access-Control-Allow-Credentials", new[] { "true" });
+                //context.Response.StatusCode = 200;
+                //await context.Response.WriteAsync("OK");
+            }
+        }
+    }
+
 }
