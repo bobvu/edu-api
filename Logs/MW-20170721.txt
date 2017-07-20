@@ -1,0 +1,669 @@
+2017-07-21T00:09:23.2547941+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T00:09:29.6273008+10:00 0HL6FF3O0O6QV [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T00:09:38.2169879+10:00 0HL6FF3O0O6QV [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:09:44.2772926+10:00 0HL6FF3O0O6QV [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T00:09:48.1573053+10:00 0HL6FF3O0O6QV [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 10421.5834ms (afa2e885)
+2017-07-21T00:09:48.5492909+10:00 0HL6FF3O0O6R0 [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/jquery/dist/jquery.js   (e5be5b71)
+2017-07-21T00:10:01.3480980+10:00 0HL6FF3O0O6R1 [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/css/bootstrap.css   (e5be5b71)
+2017-07-21T00:10:01.4100974+10:00 0HL6FF3O0O6R2 [INF] Request starting HTTP/1.1 GET http://localhost:57376/css/site.css   (e5be5b71)
+2017-07-21T00:10:14.8060061+10:00 0HL6FF3O0O6QV [INF] Request finished in 45594.0343ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T00:10:14.9736119+10:00 0HL6FF3O0O6R1 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2017-07-21T00:10:15.0166130+10:00 0HL6FF3O0O6R2 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\css\site.css"' (27b0a520)
+2017-07-21T00:10:15.0226100+10:00 0HL6FF3O0O6R0 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2017-07-21T00:10:15.2866103+10:00 0HL6FF3O0O6R2 [INF] Request finished in 26647.3501ms 200 text/css (15c52c40)
+2017-07-21T00:10:15.4076114+10:00 0HL6FF3O0O6R3 [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner1.svg   (e5be5b71)
+2017-07-21T00:10:15.9106119+10:00 0HL6FF3O0O6R1 [INF] Request finished in 26831.1254ms 200 text/css (15c52c40)
+2017-07-21T00:10:23.2519829+10:00 0HL6FF3O0O6R4 [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner2.svg   (e5be5b71)
+2017-07-21T00:10:30.1762237+10:00 0HL6FF3O0O6R5 [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner3.svg   (e5be5b71)
+2017-07-21T00:10:30.1992331+10:00 0HL6FF3O0O6R6 [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/js/bootstrap.js   (e5be5b71)
+2017-07-21T00:10:30.2492252+10:00 0HL6FF3O0O6R7 [INF] Request starting HTTP/1.1 GET http://localhost:57376/js/site.js?v=EWaMeWsJBYWmL2g_KkgXZQ5nPe-a3Ichp0LEgzXczKo   (e5be5b71)
+2017-07-21T00:10:30.5000806+10:00 0HL6FF3O0O6R4 [INF] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner2.svg"' (27b0a520)
+2017-07-21T00:10:30.6000700+10:00 0HL6FF3O0O6R5 [INF] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner3.svg"' (27b0a520)
+2017-07-21T00:10:30.7950725+10:00 0HL6FF3O0O6R7 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\js\site.js"' (27b0a520)
+2017-07-21T00:10:30.9010728+10:00 0HL6FF3O0O6R6 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2017-07-21T00:10:31.0105944+10:00 0HL6FF3O0O6R3 [INF] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner1.svg"' (27b0a520)
+2017-07-21T00:10:31.2095941+10:00 0HL6FF3O0O6R0 [INF] Request finished in 41887.9924ms 200 application/javascript (15c52c40)
+2017-07-21T00:10:31.2255952+10:00 0HL6FF3O0O6R7 [INF] Request finished in 12857.768ms 200 application/javascript (15c52c40)
+2017-07-21T00:10:31.3425959+10:00 0HL6FF3O0O6R4 [INF] Request finished in 15461.9508ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:31.6266006+10:00 0HL6FF3O0O6R5 [INF] Request finished in 15751.1208ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:33.0185953+10:00 0HL6FF3O0O6R8 [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner4.svg   (e5be5b71)
+2017-07-21T00:10:33.6895955+10:00 0HL6FF3O0O6R6 [INF] Request finished in 3542.1662ms 200 application/javascript (15c52c40)
+2017-07-21T00:10:33.7415945+10:00 0HL6FF3O0O6R3 [INF] Request finished in 18186.3565ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:33.8175947+10:00 0HL6FF3O0O6R8 [INF] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner4.svg"' (27b0a520)
+2017-07-21T00:10:33.8555957+10:00 0HL6FF3O0O6R9 [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (e5be5b71)
+2017-07-21T00:10:33.8955955+10:00 0HL6FF3O0O6R8 [INF] Request finished in 2196.9174ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:33.9996678+10:00 0HL6FF3O0O6R9 [INF] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2017-07-21T00:10:34.2405960+10:00 0HL6FF3O0O6R9 [INF] Request finished in 387.5453ms 200 application/font-woff2 (15c52c40)
+2017-07-21T00:10:34.2916019+10:00 0HL6FF3O0O6RA [INF] Request starting HTTP/1.1 GET http://localhost:57376/favicon.ico   (e5be5b71)
+2017-07-21T00:10:34.3496143+10:00 0HL6FF3O0O6RA [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\favicon.ico"' (27b0a520)
+2017-07-21T00:10:34.4395964+10:00 0HL6FF3O0O6RA [INF] Request finished in 135.7101ms 200 image/x-icon (15c52c40)
+2017-07-21T00:10:48.6405705+10:00 0HL6FF3O0O6RB [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T00:10:48.7405705+10:00 0HL6FF3O0O6RB [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:10:48.8165791+10:00 0HL6FF3O0O6RB [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T00:10:48.9235691+10:00 0HL6FF3O0O6RB [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 224.9198ms (afa2e885)
+2017-07-21T00:10:49.1675701+10:00 0HL6FF3O0O6RC [INF] Request starting HTTP/1.1 GET http://localhost:57376/css/site.css   (e5be5b71)
+2017-07-21T00:10:49.2035723+10:00 0HL6FF3O0O6RB [INF] Request finished in 401.246ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T00:10:49.3105722+10:00 0HL6FF3O0O6RD [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/jquery/dist/jquery.js   (e5be5b71)
+2017-07-21T00:10:49.3605684+10:00 0HL6FF3O0O6RC [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\css\site.css"' (27b0a520)
+2017-07-21T00:10:49.4045704+10:00 0HL6FF3O0O6RD [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2017-07-21T00:10:49.5735696+10:00 0HL6FF3O0O6RC [INF] Request finished in 352.2961ms 200 text/css (15c52c40)
+2017-07-21T00:10:49.6695707+10:00 0HL6FF3O0O6RE [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/css/bootstrap.css   (e5be5b71)
+2017-07-21T00:10:50.1995700+10:00 0HL6FF3O0O6RE [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2017-07-21T00:10:50.4425711+10:00 0HL6FF3O0O6RD [INF] Request finished in 872.7414ms 200 application/javascript (15c52c40)
+2017-07-21T00:10:50.9475693+10:00 0HL6FF3O0O6RF [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/js/bootstrap.js   (e5be5b71)
+2017-07-21T00:10:51.0675697+10:00 0HL6FF3O0O6RE [INF] Request finished in 1473.283ms 200 text/css (15c52c40)
+2017-07-21T00:10:51.1505694+10:00 0HL6FF3O0O6RG [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner1.svg   (e5be5b71)
+2017-07-21T00:10:51.1845692+10:00 0HL6FF3O0O6RH [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner2.svg   (e5be5b71)
+2017-07-21T00:10:51.2395709+10:00 0HL6FF3O0O6RI [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner4.svg   (e5be5b71)
+2017-07-21T00:10:51.2875716+10:00 0HL6FF3O0O6RJ [INF] Request starting HTTP/1.1 GET http://localhost:57376/images/banner3.svg   (e5be5b71)
+2017-07-21T00:10:51.3145719+10:00 0HL6FF3O0O6RK [INF] Request starting HTTP/1.1 GET http://localhost:57376/js/site.js?v=EWaMeWsJBYWmL2g_KkgXZQ5nPe-a3Ichp0LEgzXczKo   (e5be5b71)
+2017-07-21T00:10:51.5785689+10:00 0HL6FF3O0O6RG [INF] Sending file. Request path: '"/images/banner1.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner1.svg"' (27b0a520)
+2017-07-21T00:10:51.6425729+10:00 0HL6FF3O0O6RI [INF] Sending file. Request path: '"/images/banner4.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner4.svg"' (27b0a520)
+2017-07-21T00:10:51.9715683+10:00 0HL6FF3O0O6RH [INF] Sending file. Request path: '"/images/banner2.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner2.svg"' (27b0a520)
+2017-07-21T00:10:53.3405705+10:00 0HL6FF3O0O6RF [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2017-07-21T00:10:53.3895685+10:00 0HL6FF3O0O6RK [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\js\site.js"' (27b0a520)
+2017-07-21T00:10:53.5645699+10:00 0HL6FF3O0O6RH [INF] Request finished in 2323.1271ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:53.7725701+10:00 0HL6FF3O0O6RJ [INF] Sending file. Request path: '"/images/banner3.svg"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\images\banner3.svg"' (27b0a520)
+2017-07-21T00:10:53.9055693+10:00 0HL6FF3O0O6RG [INF] Request finished in 2507.4404ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:54.0055700+10:00 0HL6FF3O0O6RI [INF] Request finished in 2604.3767ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:54.6305763+10:00 0HL6FF3O0O6RK [INF] Request finished in 2380.587ms 200 application/javascript (15c52c40)
+2017-07-21T00:10:54.7955703+10:00 0HL6FF3O0O6RL [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2   (e5be5b71)
+2017-07-21T00:10:54.8635703+10:00 0HL6FF3O0O6RM [INF] Request starting HTTP/1.1 GET http://localhost:57376/lib/bootstrap/dist/css/bootstrap.css.map   (e5be5b71)
+2017-07-21T00:10:54.8725690+10:00 0HL6FF3O0O6RJ [INF] Request finished in 3535.8695ms 200 image/svg+xml (15c52c40)
+2017-07-21T00:10:55.0825694+10:00 0HL6FF3O0O6RF [INF] Request finished in 4071.0647ms 200 application/javascript (15c52c40)
+2017-07-21T00:10:55.2015703+10:00 0HL6FF3O0O6RM [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2017-07-21T00:10:55.3015695+10:00 0HL6FF3O0O6RL [INF] Sending file. Request path: '"/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2"' (27b0a520)
+2017-07-21T00:10:56.4826573+10:00 0HL6FF3O0O6RL [INF] Request finished in 1172.4151ms 200 application/font-woff2 (15c52c40)
+2017-07-21T00:10:56.5546537+10:00 0HL6FF3O0O6RM [INF] Request finished in 1770.4998ms 200 text/plain (15c52c40)
+2017-07-21T00:10:56.6076577+10:00 0HL6FF3O0O6RN [INF] Request starting HTTP/1.1 GET http://localhost:57376/favicon.ico   (e5be5b71)
+2017-07-21T00:10:56.8406576+10:00 0HL6FF3O0O6RN [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\wwwroot\favicon.ico"' (27b0a520)
+2017-07-21T00:10:57.9816573+10:00 0HL6FF3O0O6RN [INF] Request finished in 693.5989ms 200 image/x-icon (15c52c40)
+2017-07-21T00:11:17.8507598+10:00 0HL6FF3O0O6RO [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/Items   (e5be5b71)
+2017-07-21T00:11:19.6137802+10:00 0HL6FF3O0O6RO [INF] Executing action method "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:11:27.6317593+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (499ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i] (6438bdd5)
+2017-07-21T00:11:34.5647982+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (988ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:35.2847957+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (262ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:35.6877977+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (185ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:36.1397952+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (264ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:36.6347963+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (277ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:37.2667915+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (273ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:38.1347933+10:00 0HL6FF3O0O6RO [INF] Executed DbCommand (364ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:11:38.9027923+10:00 0HL6FF3O0O6RO [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T00:11:39.7452087+10:00 0HL6FF3O0O6RO [INF] Executed action "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" in 20230.496ms (afa2e885)
+2017-07-21T00:11:41.7277154+10:00 0HL6FF3O0O6RO [INF] Request finished in 22977.7342ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T00:12:54.4863069+10:00 0HL6FF3O0O6RP [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items   (e5be5b71)
+2017-07-21T00:12:55.0633063+10:00 0HL6FF3O0O6RP [INF] Executing action method "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:12:55.9923058+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (182ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i] (6438bdd5)
+2017-07-21T00:12:56.1913066+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (146ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:56.6953067+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (119ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:56.9073066+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (160ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:57.6163085+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (128ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:58.1483070+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (156ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:58.4813058+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (134ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:58.7053049+10:00 0HL6FF3O0O6RP [INF] Executed DbCommand (124ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:12:58.7763054+10:00 0HL6FF3O0O6RP [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T00:12:58.8043100+10:00 0HL6FF3O0O6RP [INF] Executed action "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" in 3980.4634ms (afa2e885)
+2017-07-21T00:12:58.9753058+10:00 0HL6FF3O0O6RP [INF] Request finished in 5296.6632ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T00:13:06.2398233+10:00 0HL6FF3O0O6RQ [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items   (e5be5b71)
+2017-07-21T00:13:06.3348211+10:00 0HL6FF3O0O6RQ [INF] Executing action method "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:13:06.4638209+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i] (6438bdd5)
+2017-07-21T00:13:06.5668214+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (83ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:06.9388273+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (310ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:07.1428220+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (110ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:07.3818214+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (112ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:07.6018299+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (103ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:08.3918215+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (147ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:08.5528235+10:00 0HL6FF3O0O6RQ [INF] Executed DbCommand (96ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:13:08.5978207+10:00 0HL6FF3O0O6RQ [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T00:13:08.6448247+10:00 0HL6FF3O0O6RQ [INF] Executed action "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" in 2331.4846ms (afa2e885)
+2017-07-21T00:13:08.7568232+10:00 0HL6FF3O0O6RQ [INF] Request finished in 2511.0185ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T00:16:50.8008646+10:00 0HL6FF3O0O6RR [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items   (e5be5b71)
+2017-07-21T00:16:50.9048629+10:00 0HL6FF3O0O6RR [INF] Executing action method "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:16:51.1878637+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (91ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i] (6438bdd5)
+2017-07-21T00:16:51.2808631+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (75ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:51.3898694+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (90ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:51.5208629+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (96ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:51.6538624+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (111ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:51.7708641+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (72ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:51.8848643+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (85ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:52.0028634+10:00 0HL6FF3O0O6RR [INF] Executed DbCommand (92ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T00:16:52.0448649+10:00 0HL6FF3O0O6RR [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T00:16:52.0558645+10:00 0HL6FF3O0O6RR [INF] Executed action "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" in 1225.3319ms (afa2e885)
+2017-07-21T00:16:52.1068642+10:00 0HL6FF3O0O6RR [INF] Request finished in 1304.6915ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T00:48:31.8189936+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T00:48:40.5015484+10:00 0HL6FFPKKB1EJ [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T00:48:41.9545458+10:00 0HL6FFPKKB1EJ [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:48:47.0495381+10:00 0HL6FFPKKB1EJ [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T00:48:50.4815403+10:00 0HL6FFPKKB1EJ [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 8898.6984ms (afa2e885)
+2017-07-21T00:48:50.8315412+10:00 0HL6FFPKKB1EJ [INF] Request finished in 10322.451ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T00:49:21.5805145+10:00 0HL6FFPKKB1EK [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items/1   (e5be5b71)
+2017-07-21T00:49:23.0735153+10:00 0HL6FFPKKB1EK [INF] Executing action method "MW.API.Controllers.Test.ItemsController.Get (MW.API)" with arguments (["1"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:49:27.2606592+10:00 0HL6FFPKKB1EK [INF] Executed DbCommand (241ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[ItemId], [c].[ImagePath], [c].[Name], [c].[Price]
+FROM [Items] AS [c]
+WHERE [c].[ItemId] = @__id_0 (6438bdd5)
+2017-07-21T00:49:29.5649645+10:00 0HL6FFPKKB1EK [INF] Executed DbCommand (167ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__id_0 (6438bdd5)
+2017-07-21T00:49:29.7539747+10:00 0HL6FFPKKB1EK [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T00:49:30.2369157+10:00 0HL6FFPKKB1EK [INF] Executed action "MW.API.Controllers.Test.ItemsController.Get (MW.API)" in 8296.2227ms (afa2e885)
+2017-07-21T00:49:30.4249016+10:00 0HL6FFPKKB1EK [INF] Request finished in 8902.9607ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T00:54:01.5421871+10:00 0HL6FFPKKB1EL [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items text/plain;charset=UTF-8 70 (e5be5b71)
+2017-07-21T00:54:01.5901892+10:00 0HL6FFPKKB1EL [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "MW.API.Controllers.Test.ItemsController.Post (MW.API)
+MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" (ab9a4111)
+2017-07-21T00:54:01.6911891+10:00 0HL6FFPKKB1EL [ERR] An unhandled exception has occurred: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+MW.API.Controllers.Test.ItemsController.Post (MW.API)
+MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API) (90ff61fa)
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+MW.API.Controllers.Test.ItemsController.Post (MW.API)
+MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.<RouteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-07-21T00:54:01.8291861+10:00 0HL6FFPKKB1EL [ERR] An exception was thrown attempting to execute the error handler. (e55ade05)
+System.InvalidOperationException: Invalid non-ASCII or control character in header: 0x000D
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameHeaders.ThrowInvalidHeaderCharacter(Char ch)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameHeaders.ValidateHeaderCharacters(String headerCharacters)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameHeaders.ValidateHeaderCharacters(StringValues headerValues)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameResponseHeaders.AddValueFast(String key, StringValues value)
+   at Microsoft.AspNetCore.Server.Kestrel.Internal.Http.FrameHeaders.System.Collections.Generic.IDictionary<System.String,Microsoft.Extensions.Primitives.StringValues>.Add(String key, StringValues value)
+   at MW.API.Extensions.ResponseExtensions.AddApplicationError(HttpResponse response, String message) in D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\Extensions\ResponseExtensions.cs:line 14
+   at MW.API.Startup.<>c.<<Configure>b__7_1>d.MoveNext() in D:\Dropbox (SCOPEMED)\HungVu\MWv6\MW.API\MW.API\Startup.cs:line 142
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-07-21T00:54:01.9061874+10:00 0HL6FFPKKB1EL [ERR] An unhandled exception has occurred while executing the request (cf926119)
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+MW.API.Controllers.Test.ItemsController.Post (MW.API)
+MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.<RouteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Web.BrowserLink.BrowserLinkMiddleware.<ExecuteWithFilter>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2017-07-21T00:54:02.2071888+10:00 0HL6FFPKKB1EL [INF] Request finished in 680.6858ms 500 text/html; charset=utf-8 (15c52c40)
+2017-07-21T00:59:40.2576032+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T00:59:42.7496056+10:00 0HL6FFVQ02KJP [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T00:59:45.6306044+10:00 0HL6FFVQ02KJP [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T00:59:50.9326038+10:00 0HL6FFVQ02KJP [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T00:59:52.5846017+10:00 0HL6FFVQ02KJP [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 7312.3977ms (afa2e885)
+2017-07-21T00:59:53.3726109+10:00 0HL6FFVQ02KJP [INF] Request finished in 10830.8665ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T01:00:20.4576842+10:00 0HL6FFVQ02KJQ [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment text/plain;charset=UTF-8 70 (e5be5b71)
+2017-07-21T01:00:21.0656840+10:00 0HL6FFVQ02KJQ [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:00:53.8282351+10:00 0HL6FFVQ02KJQ [INF] Executed DbCommand (213ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:00:54.0672291+10:00 0HL6FFVQ02KJQ [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:00:54.4922339+10:00 0HL6FFVQ02KJQ [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 33571.3462ms (afa2e885)
+2017-07-21T01:00:55.9182299+10:00 0HL6FFVQ02KJQ [INF] Request finished in 34905.8194ms 400 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:01:44.0197174+10:00 0HL6FFVQ02KJR [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items/1   (e5be5b71)
+2017-07-21T01:01:44.4967219+10:00 0HL6FFVQ02KJR [INF] Executing action method "MW.API.Controllers.Test.ItemsController.Get (MW.API)" with arguments (["1"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:01:45.5527166+10:00 0HL6FFVQ02KJR [INF] Executed DbCommand (143ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[ItemId], [c].[ImagePath], [c].[Name], [c].[Price]
+FROM [Items] AS [c]
+WHERE [c].[ItemId] = @__id_0 (6438bdd5)
+2017-07-21T01:01:45.8037167+10:00 0HL6FFVQ02KJR [INF] Executed DbCommand (74ms) [Parameters=[@__id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__id_0 (6438bdd5)
+2017-07-21T01:01:45.8507167+10:00 0HL6FFVQ02KJR [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:01:46.2057199+10:00 0HL6FFVQ02KJR [INF] Executed action "MW.API.Controllers.Test.ItemsController.Get (MW.API)" in 2138.4014ms (afa2e885)
+2017-07-21T01:01:46.2257192+10:00 0HL6FFVQ02KJR [INF] Request finished in 2216.5141ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:02:30.0592515+10:00 0HL6FFVQ02KJS [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment text/plain;charset=UTF-8 81 (e5be5b71)
+2017-07-21T01:02:30.5162527+10:00 0HL6FFVQ02KJS [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:02:40.8450683+10:00 0HL6FFVQ02KJS [INF] Executed DbCommand (264ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:02:40.9500468+10:00 0HL6FFVQ02KJS [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:02:41.0150562+10:00 0HL6FFVQ02KJS [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 10598.0938ms (afa2e885)
+2017-07-21T01:02:41.0420459+10:00 0HL6FFVQ02KJS [INF] Request finished in 11668.1542ms 400 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:02:53.9999402+10:00 0HL6FFVQ02KJT [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment text/plain;charset=UTF-8 81 (e5be5b71)
+2017-07-21T01:02:54.2289414+10:00 0HL6FFVQ02KJT [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:04:16.1628632+10:00 0HL6FFVQ02KJT [INF] Executed DbCommand (137ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:04:17.4699773+10:00 0HL6FFVQ02KJT [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:04:17.4779760+10:00 0HL6FFVQ02KJT [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 83390.7661ms (afa2e885)
+2017-07-21T01:04:17.5439765+10:00 0HL6FFVQ02KJT [INF] Request finished in 83543.6413ms 400 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:04:31.8439473+10:00 0HL6FFVQ02KJU [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment text/plain;charset=UTF-8 81 (e5be5b71)
+2017-07-21T01:04:32.0209467+10:00 0HL6FFVQ02KJU [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:05:29.5518472+10:00 0HL6FFVQ02KJU [INF] Executed DbCommand (82ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:05:30.9688614+10:00 0HL6FFVQ02KJU [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:05:30.9888625+10:00 0HL6FFVQ02KJU [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 59047.9806ms (afa2e885)
+2017-07-21T01:05:31.0508652+10:00 0HL6FFVQ02KJU [INF] Request finished in 59168.8019ms 400 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:06:20.3124699+10:00 0HL6FFVQ02KJV [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment application/json 51 (e5be5b71)
+2017-07-21T01:06:21.2684755+10:00 0HL6FFVQ02KJV [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:07:17.7046102+10:00 0HL6FFVQ02KJV [INF] Executed DbCommand (89ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:07:18.7147524+10:00 0HL6FFVQ02KJV [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:07:18.7967489+10:00 0HL6FFVQ02KJV [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 57605.2286ms (afa2e885)
+2017-07-21T01:07:19.0407462+10:00 0HL6FFVQ02KJV [INF] Request finished in 59390.6454ms 400 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:09:08.1990770+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T01:09:12.1460781+10:00 0HL6FG53MDH75 [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T01:09:17.3900769+10:00 0HL6FG53MDH75 [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:09:26.6910761+10:00 0HL6FG53MDH75 [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T01:09:28.3660756+10:00 0HL6FG53MDH75 [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 13388.7141ms (afa2e885)
+2017-07-21T01:09:28.8560778+10:00 0HL6FG53MDH75 [INF] Request finished in 16766.5493ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T01:09:37.0760399+10:00 0HL6FG53MDH76 [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment application/json 51 (e5be5b71)
+2017-07-21T01:09:37.3980406+10:00 0HL6FG53MDH76 [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:10:19.2517768+10:00 0HL6FG53MDH76 [INF] Executed DbCommand (236ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:10:22.2064324+10:00 0HL6FG53MDH76 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:10:22.2524322+10:00 0HL6FG53MDH76 [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 45082.3571ms (afa2e885)
+2017-07-21T01:10:22.2924301+10:00 0HL6FG53MDH76 [INF] Request finished in 45214.7218ms 400 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:11:45.9710169+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T01:11:49.6520172+10:00 0HL6FG6IKBB3R [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T01:11:52.1280145+10:00 0HL6FG6IKBB3R [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:11:57.3820140+10:00 0HL6FG6IKBB3R [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T01:11:59.5990150+10:00 0HL6FG6IKBB3R [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 8935.2473ms (afa2e885)
+2017-07-21T01:11:59.8800145+10:00 0HL6FG6IKBB3R [INF] Request finished in 10287.9556ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T01:12:07.6154832+10:00 0HL6FG6IKBB3S [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/Addcomment application/json 51 (e5be5b71)
+2017-07-21T01:12:08.3124845+10:00 0HL6FG6IKBB3S [INF] Executing action method "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" with arguments (["MW.Domains.Test.Comment"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:12:25.5956578+10:00 0HL6FG6IKBB3S [INF] Executed DbCommand (217ms) [Parameters=[@__model_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[ItemId], [i].[ImagePath], [i].[Name], [i].[Price]
+FROM [Items] AS [i]
+WHERE [i].[ItemId] = @__model_ItemId_0 (6438bdd5)
+2017-07-21T01:12:50.8493004+10:00 0HL6FG6IKBB3S [INF] Executed DbCommand (130ms) [Parameters=[@p0='?' (Size = 4000), @p1='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Comments] ([Content], [ItemId])
+VALUES (@p0, @p1);
+SELECT [CommentId]
+FROM [Comments]
+WHERE @@ROWCOUNT = 1 AND [CommentId] = scope_identity(); (6438bdd5)
+2017-07-21T01:13:04.4546165+10:00 0HL6FG6IKBB3S [INF] Executed DbCommand (113ms) [Parameters=[@__item_ItemId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CommentId], [c].[Content], [c].[ItemId]
+FROM [Comments] AS [c]
+WHERE [c].[ItemId] = @__item_ItemId_0 (6438bdd5)
+2017-07-21T01:13:10.6427585+10:00 0HL6FG6IKBB3S [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:13:10.8577706+10:00 0HL6FG6IKBB3S [INF] Executed action "MW.API.Controllers.Test.ItemsController.AddCommentToItem (MW.API)" in 63162.9347ms (afa2e885)
+2017-07-21T01:13:10.9127726+10:00 0HL6FG6IKBB3S [INF] Request finished in 63284.3449ms 201 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:14:31.0537785+10:00 0HL6FG6IKBB3T [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T01:14:31.8017799+10:00 0HL6FG6IKBB3T [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:14:32.9857818+10:00 0HL6FG6IKBB3T [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T01:14:33.1587796+10:00 0HL6FG6IKBB3T [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 2039.0078ms (afa2e885)
+2017-07-21T01:14:33.4227821+10:00 0HL6FG6IKBB3T [INF] Request finished in 2304.9329ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T01:14:44.3127974+10:00 0HL6FG6IKBB3U [INF] Request starting HTTP/1.1 GET http://localhost:57376/index   (e5be5b71)
+2017-07-21T01:14:44.4887787+10:00 0HL6FG6IKBB3U [INF] Request finished in 125.4858ms 404  (15c52c40)
+2017-07-21T01:17:13.5201051+10:00 0HL6FG6IKBB3V [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/createItem application/json 61 (e5be5b71)
+2017-07-21T01:17:13.7141037+10:00 0HL6FG6IKBB3V [INF] Executing action method "MW.API.Controllers.Test.ItemsController.Post (MW.API)" with arguments (["MW.Domains.Test.Item"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:17:31.3808525+10:00 0HL6FG6IKBB3V [INF] Executed DbCommand (98ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Items] ([ImagePath], [Name], [Price])
+VALUES (@p0, @p1, @p2);
+SELECT [ItemId]
+FROM [Items]
+WHERE @@ROWCOUNT = 1 AND [ItemId] = scope_identity(); (6438bdd5)
+2017-07-21T01:17:31.5348524+10:00 0HL6FG6IKBB3V [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:17:32.7658557+10:00 0HL6FG6IKBB3V [INF] Executed action "MW.API.Controllers.Test.ItemsController.Post (MW.API)" in 17954.6774ms (afa2e885)
+2017-07-21T01:17:32.9298517+10:00 0HL6FG6IKBB3V [INF] Request finished in 19472.9971ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:21:01.3276035+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T01:21:04.9345133+10:00 0HL6FGBO3VUBP [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T01:21:06.3455143+10:00 0HL6FGBO3VUBP [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:21:11.5845094+10:00 0HL6FGBO3VUBP [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T01:21:15.3605104+10:00 0HL6FGBO3VUBP [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 9224.3265ms (afa2e885)
+2017-07-21T01:21:15.7525106+10:00 0HL6FGBO3VUBP [INF] Request finished in 10919.4614ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T01:21:23.1104475+10:00 0HL6FGBO3VUBQ [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/createItem application/json 61 (e5be5b71)
+2017-07-21T01:21:23.6234480+10:00 0HL6FGBO3VUBQ [INF] Request finished in 1504.9515ms 404  (15c52c40)
+2017-07-21T01:21:44.9954109+10:00 0HL6FGBO3VUBR [INF] Request starting HTTP/1.1 POST http://localhost:57376/api/items/AddItem application/json 61 (e5be5b71)
+2017-07-21T01:21:45.4884114+10:00 0HL6FGBO3VUBR [INF] Executing action method "MW.API.Controllers.Test.ItemsController.Post (MW.API)" with arguments (["MW.Domains.Test.Item"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:22:11.6000189+10:00 0HL6FGBO3VUBR [INF] Executed DbCommand (294ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Items] ([ImagePath], [Name], [Price])
+VALUES (@p0, @p1, @p2);
+SELECT [ItemId]
+FROM [Items]
+WHERE @@ROWCOUNT = 1 AND [ItemId] = scope_identity(); (6438bdd5)
+2017-07-21T01:22:11.7770209+10:00 0HL6FGBO3VUBR [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T01:22:11.8480200+10:00 0HL6FGBO3VUBR [INF] Executed action "MW.API.Controllers.Test.ItemsController.Post (MW.API)" in 26794.9208ms (afa2e885)
+2017-07-21T01:22:11.8720205+10:00 0HL6FGBO3VUBR [INF] Request finished in 26872.7721ms 200 application/json; charset=utf-8 (15c52c40)
+2017-07-21T01:32:32.5034005+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T01:32:36.5533759+10:00 0HL6FGI67PIHT [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T01:32:38.1213763+10:00 0HL6FGI67PIHT [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:32:45.4043750+10:00 0HL6FGI67PIHT [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T01:32:47.1273741+10:00 0HL6FGI67PIHT [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 9231.5849ms (afa2e885)
+2017-07-21T01:32:47.5213738+10:00 0HL6FGI67PIHT [INF] Request finished in 11190.6129ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T01:33:41.0709827+10:00 0HL6FGI67PIHU [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items   (e5be5b71)
+2017-07-21T01:33:41.1419730+10:00 0HL6FGI67PIHU [INF] Authorization failed for user: null. (a4ab1676)
+2017-07-21T01:33:41.1549757+10:00 0HL6FGI67PIHU [INF] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'. (8b6446cb)
+2017-07-21T01:33:41.1929764+10:00 0HL6FGI67PIHU [INF] Executing ChallengeResult with authentication schemes ([]). (f3dca807)
+2017-07-21T01:33:41.2529770+10:00 0HL6FGI67PIHU [INF] AuthenticationScheme: "Identity.Application" was challenged. (d45f1f38)
+2017-07-21T01:33:41.2629745+10:00 0HL6FGI67PIHU [INF] Executed action "MW.API.Controllers.Test.ItemsController.GetAll (MW.API)" in 143.4065ms (afa2e885)
+2017-07-21T01:33:41.3079750+10:00 0HL6FGI67PIHU [INF] Request finished in 211.3577ms 302  (15c52c40)
+2017-07-21T01:33:41.3259737+10:00 0HL6FGI67PIHV [INF] Request starting HTTP/1.1 GET http://localhost:57376/Account/Login?ReturnUrl=%2Fapi%2Fitems   (e5be5b71)
+2017-07-21T01:33:41.7339776+10:00 0HL6FGI67PIHV [INF] Executing action method "MW.API.Controllers.AccountController.Login (MW.API)" with arguments (["/api/items"]) - ModelState is Valid (ba7f4ac2)
+2017-07-21T01:33:41.7929735+10:00 0HL6FGI67PIHV [INF] AuthenticationScheme: "Identity.External" signed out. (d3f50c8d)
+2017-07-21T01:33:43.4230363+10:00 0HL6FGI67PIHV [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-07-21T01:33:43.4490378+10:00 0HL6FGI67PIHV [INF] Executed action "MW.API.Controllers.AccountController.Login (MW.API)" in 2091.2278ms (afa2e885)
+2017-07-21T01:33:43.6370518+10:00 0HL6FGI67PIHV [ERR] An unhandled exception has occurred: No service for type 'Microsoft.AspNetCore.Identity.SignInManager`1[MW.API.Models.ApplicationUser]' has been registered. (6b75c25b)
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Identity.SignInManager`1[MW.API.Models.ApplicationUser]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.<>c__DisplayClass16_0.<CreateActivateInfo>b__1(ViewContext context)
+   at Microsoft.Extensions.Internal.PropertyActivator`1.Activate(Object instance, TContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderPageAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.<RenderAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.<ExecuteAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ViewResult.<ExecuteResultAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeResultAsync>d__30.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResultFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-07-21T01:33:43.7230359+10:00 0HL6FGI67PIHV [INF] Request finished in 2399.4154ms 500  (15c52c40)
+2017-07-21T02:09:08.5869972+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T02:09:13.3580003+10:00 0HL6FH6KU2CQO [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T02:09:23.6524949+10:00 0HL6FH6KU2CQO [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T02:09:37.1188605+10:00 0HL6FH6KU2CQO [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T02:09:47.9699959+10:00 0HL6FH6KU2CQO [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 25548.7431ms (afa2e885)
+2017-07-21T02:09:49.6759933+10:00 0HL6FH6KU2CQO [INF] Request finished in 36655.6522ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T02:10:51.0813995+10:00 0HL6FH6KU2CQP [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items/getmentionables   (e5be5b71)
+2017-07-21T02:10:51.2553999+10:00 0HL6FH6KU2CQP [INF] Executing action method "MW.API.Controllers.Test.ItemsController.Get (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T02:11:01.7477053+10:00 0HL6FH6KU2CQQ [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T02:11:02.2807001+10:00 0HL6FH6KU2CQQ [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T02:11:02.4866960+10:00 0HL6FH6KU2CQQ [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T02:11:03.1706997+10:00 0HL6FH6KU2CQQ [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 1047.6546ms (afa2e885)
+2017-07-21T02:11:03.6856975+10:00 0HL6FH6KU2CQQ [INF] Request finished in 2377.065ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T02:11:07.6996966+10:00 0HL6FH6KU2CQP [INF] Executed DbCommand (264ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[User_Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedBy], [u].[CreatedDate], [u].[Dob], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ForcePasswordReset], [u].[ForceProfileReview], [u].[ForceToReviewTermsCondition], [u].[Gender], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerificationSent], [u].[IsEmailVerified], [u].[IsTermsConditionAccepted], [u].[IsWelcomeEmailSent], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedBy], [u].[ModifiedDate], [u].[NickName], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[Password], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TenantId], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [dbo].[Users] AS [u] (6438bdd5)
+2017-07-21T02:14:07.0296708+10:00  [INF] User profile is available. Using '"C:\Users\hungd\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-07-21T02:14:11.3447737+10:00 0HL6FH9DO5SRL [INF] Request starting HTTP/1.1 GET http://localhost:57376/   (e5be5b71)
+2017-07-21T02:14:13.4787721+10:00 0HL6FH9DO5SRL [INF] Executing action method "MW.API.Controllers.HomeController.Index (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T02:14:18.8457700+10:00 0HL6FH9DO5SRL [INF] Executing ViewResult, running view at path "/Views/Home/Index.cshtml". (9707eebe)
+2017-07-21T02:14:22.4297696+10:00 0HL6FH9DO5SRL [INF] Executed action "MW.API.Controllers.HomeController.Index (MW.API)" in 9776.068ms (afa2e885)
+2017-07-21T02:14:22.8347707+10:00 0HL6FH9DO5SRL [INF] Request finished in 12687.2583ms 200 text/html; charset=utf-8 (15c52c40)
+2017-07-21T02:15:17.3555184+10:00 0HL6FH9DO5SRM [INF] Request starting HTTP/1.1 GET http://localhost:57376/api/items/getmentionables   (e5be5b71)
+2017-07-21T02:15:19.1185209+10:00 0HL6FH9DO5SRM [INF] Executing action method "MW.API.Controllers.Test.ItemsController.Get (MW.API)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-07-21T02:15:33.1324051+10:00 0HL6FH9DO5SRM [INF] Executed DbCommand (278ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[User_Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[CreatedBy], [u].[CreatedDate], [u].[Dob], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[ForcePasswordReset], [u].[ForceProfileReview], [u].[ForceToReviewTermsCondition], [u].[Gender], [u].[IsActive], [u].[IsDeleted], [u].[IsEmailVerificationSent], [u].[IsEmailVerified], [u].[IsTermsConditionAccepted], [u].[IsWelcomeEmailSent], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[ModifiedBy], [u].[ModifiedDate], [u].[NickName], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[Password], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TenantId], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [dbo].[Users] AS [u] (6438bdd5)
+2017-07-21T02:15:48.8526546+10:00 0HL6FH9DO5SRM [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-07-21T02:15:49.6526557+10:00 0HL6FH9DO5SRM [INF] Executed action "MW.API.Controllers.Test.ItemsController.Get (MW.API)" in 31231.8796ms (afa2e885)
+2017-07-21T02:15:49.8236559+10:00 0HL6FH9DO5SRM [INF] Request finished in 32984.0094ms 200 application/json; charset=utf-8 (15c52c40)

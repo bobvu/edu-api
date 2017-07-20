@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using MW.Domains.Users;
+using MW.Domains.Test;
 
 namespace MW.DataAccess.Contexts
 {
@@ -17,6 +18,9 @@ namespace MW.DataAccess.Contexts
             //_config = config;
 
         }
+
+        public DbSet<Item> Items { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

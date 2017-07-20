@@ -45,5 +45,8 @@
     <ProjectReference Include="..\MW.DataAccess\MW.DataAccess.csproj" />
     <ProjectReference Include="..\MW.Domains\MW.Domains.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\Test\" />
+  </ItemGroup>
 
 </Project>

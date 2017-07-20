@@ -8,9 +8,10 @@ using MW.DataAccess.Contexts;
 namespace MW.DataAccess.Migrations
 {
     [DbContext(typeof(MwSqlContext))]
-    partial class MwSqlContextModelSnapshot : ModelSnapshot
+    [Migration("20170720125454_FourthTry")]
+    partial class FourthTry
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.1")
