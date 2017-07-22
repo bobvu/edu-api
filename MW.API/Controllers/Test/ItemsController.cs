@@ -17,6 +17,7 @@ using MW.API.Models.AccountViewModels;
 namespace MW.API.Controllers.Test
 {
     [Produces("application/json")]
+    [Authorize(Policy = "ApiUser")]
     [Route("api/Items")]
     public class ItemsController : Controller
     {

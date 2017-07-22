@@ -148,13 +148,13 @@ namespace MW.API
             var jwtAppSettingOptions = Configuration.GetSection(nameof(JwtIssuerOptions));
             var tokenValidationParameters = new TokenValidationParameters
             {
-                ValidateIssuer = true,
-                ValidIssuer = jwtAppSettingOptions[nameof(JwtIssuerOptions.Issuer)],
+                ValidateIssuer = false,  //---> Temporary fix
+                //ValidIssuer = jwtAppSettingOptions[nameof(JwtIssuerOptions.Issuer)],
 
-                ValidateAudience = true,
-                ValidAudience = jwtAppSettingOptions[nameof(JwtIssuerOptions.Audience)],
+                ValidateAudience = false, //---> Temporary fix
+                //ValidAudience = jwtAppSettingOptions[nameof(JwtIssuerOptions.Audience)],
 
-                ValidateIssuerSigningKey = true,
+                ValidateIssuerSigningKey = false,
                 IssuerSigningKey = _signingKey,
 
                 RequireExpirationTime = false,
@@ -164,6 +164,7 @@ namespace MW.API
 
             app.UseJwtBearerAuthentication(new JwtBearerOptions
             {
+               // Audience="ItmbAPI",
                 AutomaticAuthenticate = true,
                 AutomaticChallenge = true,
                 TokenValidationParameters = tokenValidationParameters
@@ -216,7 +217,8 @@ namespace MW.API
             if (context.Request.Method == "OPTIONS")
             {
                 context.Response.Headers.Add("Access-Control-Allow-Origin", new[] { (string)context.Request.Headers["Origin"] });
-                context.Response.Headers.Add("Access-Control-Allow-Headers", new[] { "Origin, X-Requested-With, Content-Type, Accept" });
+                context.Response.Headers.Add("Access-Control-Allow-Headers", new[] { "Origin, X-Requested-With, Content-Type, Accept, Authorization" });
+                //context.Response.Headers.Add("Access-Control-Allow-Headers", "*");
                 context.Response.Headers.Add("Access-Control-Allow-Methods", new[] { "GET, POST, PUT, DELETE, OPTIONS" });
                 context.Response.Headers.Add("Access-Control-Allow-Credentials", new[] { "true" });
                 //context.Response.StatusCode = 200;
